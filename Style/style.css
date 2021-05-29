@@ -1,0 +1,389 @@
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/*=================================================================================== INDEX =======================================================================================*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.header {
+	height: 90px;
+	background-color: #60606082;
+}
+
+
+/*--- Menu Nav --*/
+.nav li {
+	display: inline-block;
+}
+
+
+.nav li a{
+	color: white;
+	text-decoration: ;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.nav ul {
+	text-align: right;
+	margin-right: 10px;
+	padding-top: 50px;
+}
+
+.nav ul li{	
+	display: inline-block;
+    font-size: 20px;
+    font-family: 'Lato'; 
+    padding: 0px 2px; 
+    margin-right: 5px;
+    font-weight: bold;
+
+}
+
+.nav li a:hover{
+	border-radius: 10px;
+	border: 1px solid white;
+	background-color: darkorange;
+}
+
+
+/* --- Logo ---*/
+.logo img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 8px;
+}
+ 
+
+/*----- Login -----*/
+ .login{
+	margin-top: 0px;
+ }
+ 
+.login h2{
+	text-align: right;
+	font-size: 40px;
+	font-family: Lato;
+	margin-bottom: 18px;
+	text-decoration: underline;
+	margin-right: 140px;
+}
+
+.login form {
+	text-align: right;
+	
+}
+
+.login form input{
+	width: 300px;
+	height: 35px;
+	margin-bottom: 20px;
+	margin-right: 30px;
+	font-family: Lato;
+	text-indent: 5px;
+	display: inline-block;
+}
+
+.login form input:last-Child{
+	background-color: #606060;
+	border: 1px solid white;
+	width: 300px;
+	color: white;
+	height: 35px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+.login form input:last-Child:hover{
+	background-color: orange;
+	border-radius: 10px;
+}
+
+
+/*----------- Dropdown --------------*/
+.dropdown {
+  float: left;
+  margin-left:23px;		 
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: 1px solid white;
+  border-radius: 10px;
+  outline: none;
+  color: white;
+  padding: 3px 10px;
+  background-color: #ffc10740;
+  font-family: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 100px;
+  box-shadow: 19px 20px 20px 6px rgba(3, 3, 3, 0.68);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 4px 7px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #3ae1ff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/* Media Icons */
+
+#wrapper {
+	width: 350px;
+	height: 50px;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	font-family: entypo;
+	color: #212121;
+	background: orange;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	display: block;
+	cursor: pointer;
+	margin: 10px;
+	margin-top: 	20px;
+}
+
+.box:hover {
+	color: #fff;
+	transition: scale(1.15);
+	transition: 1s;
+}
+
+#facebook:hover {
+	background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;
+}
+
+#twitter:hover {
+    background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;	
+}
+
+#google:hover {
+	background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;
+}
+#linkedin:hover {
+	background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;
+}
+
+
+
+
+
+
+
+/*==================================================================================== SIGN UP ====================================================================================*/
+
+.headersp {
+	height: 90px;
+	background-color: #60606082;
+}
+
+/*--- Menu Nav ---*/
+.navsp li {
+	display: inline-block;
+}
+
+.navsp li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+
+.navsp ul {
+	text-align: right;
+	margin-right: 10px;
+	padding-top: 50px;
+}
+
+.navsp ul li{	
+	display: inline-block;
+    font-size: 20px;
+    font-family: 'Lato'; 
+    padding: 0px 3px; 
+    margin-right: 5px;
+	padding-top: 0px;
+	font-weight: bold;
+}
+
+.navsp ul li:hover{
+	border: 1px solid white;
+	border-radius: 10px;
+	background-color: #0bed17;
+}
+
+/*----- Login -----*/
+.loginsp{
+	margin-top: 0px;
+}
+
+.loginsp h1 {
+	text-align: right;
+	font-size: 45px;
+	font-family: Lato;
+	margin-bottom: 25px;
+	text-decoration: underline;
+	margin-right: 90px;
+}
+
+.loginsp form {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.loginsp form input{
+	width: 300px;
+	height: 35px;
+	margin-bottom: 20px;
+	font-family: Lato;
+	text-indent: 5px;
+	padding: 2,5px;
+	
+}
+
+.loginsp form input:last-Child{
+	background-color: #606060;
+	border: 1px solid white;
+	width: 310;
+	color: white;
+	height: 40px;
+	font-size: 20px;
+	cursor: pointer;
+	border: 1px solid white;				
+}
+
+.loginsp form input:last-Child:hover{
+	background-color: #0bed17;
+	border-radius: 10px;	
+
+/* Media Icons */
+#wrapper {
+	width: 350px;
+	height: 50px;
+	margin: 10px;
+	margin-top: 15px;
+}
+
+.box {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	font-family: entypo;
+	color: #212121;
+	background: orange;
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	display: block;
+	cursor: pointer;
+	margin: 10px;
+	margin-top: 	20px;
+}
+
+.box:hover {
+	color: #fff;
+	transition: scale(1.15);
+	transition: 1s;
+}
+
+#facebook:hover {
+	background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;
+}
+
+#twitter:hover {
+    background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;	
+}
+
+#google:hover {
+	background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;
+}
+#linkedin:hover {
+	background-color:  rgb(59, 89, 152);
+	box-shadow: inset 0 0 0 22px #3A5795;
+	transform: rotate(360deg) scale(1.15);
+	transition: 1s;
+}
+
+.inputuri input .sex {
+	font-size: 50px;
+	color: red;
+}
+
+
+
+
+/*==================================================================================== NOUTATI ====================================================================================*/
+
+
+
+
+
+
+/*==================================================================================== DESPRE ====================================================================================*/
+
+
+
+
+
+
+
+
